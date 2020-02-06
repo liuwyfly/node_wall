@@ -1,0 +1,159 @@
+1
+00:00:00,030 --> 00:00:06,480
+in this video we will see how to install
+
+2
+00:00:02,850 --> 00:00:10,620
+the CUDA toolkit and run an example on a
+
+3
+00:00:06,480 --> 00:00:13,230
+GPU to get started download the toolkit
+
+4
+00:00:10,620 --> 00:00:16,230
+from the CUDA download page on the
+
+5
+00:00:13,230 --> 00:00:18,000
+Nvidia website I am going to grab the
+
+6
+00:00:16,230 --> 00:00:22,520
+package corresponding to my operating
+
+7
+00:00:18,000 --> 00:00:22,520
+system which is a 64-bit Windows
+
+8
+00:00:22,730 --> 00:00:28,490
+follow the prompts and extract and
+
+9
+00:00:25,640 --> 00:00:30,740
+install the package the standard toolkit
+
+10
+00:00:28,490 --> 00:00:33,739
+installation provides accelerated
+
+11
+00:00:30,740 --> 00:00:37,600
+libraries a compiler development tools
+
+12
+00:00:33,739 --> 00:00:37,600
+and sample code
+
+13
+00:00:39,160 --> 00:00:44,530
+now with the CUDA toolkit you have
+
+14
+00:00:41,559 --> 00:00:47,260
+everything you need to create compile
+
+15
+00:00:44,530 --> 00:00:50,550
+optimize and deploy your applications
+
+16
+00:00:47,260 --> 00:00:50,550
+onto NVIDIA GPUs
+
+17
+00:00:50,800 --> 00:00:56,100
+once the installation completes we're
+
+18
+00:00:53,530 --> 00:00:58,570
+now ready to run an example
+
+19
+00:00:56,100 --> 00:01:01,170
+navigate to the Kudus samples folder
+
+20
+00:00:58,570 --> 00:01:04,809
+where you'll find code samples
+
+21
+00:01:01,170 --> 00:01:07,330
+illustrating key cuda concepts as well
+
+22
+00:01:04,809 --> 00:01:10,360
+as other samples focused on areas such
+
+23
+00:01:07,330 --> 00:01:13,420
+as image processing financial computing
+
+24
+00:01:10,360 --> 00:01:16,360
+particle physics fluid dynamics among
+
+25
+00:01:13,420 --> 00:01:18,580
+many others we'll use the matrix
+
+26
+00:01:16,360 --> 00:01:21,150
+multiplication example so let's navigate
+
+27
+00:01:18,580 --> 00:01:21,150
+to that folder
+
+28
+00:01:21,900 --> 00:01:27,630
+Visual Studio 15 on my machine and we'll
+
+29
+00:01:24,510 --> 00:01:29,930
+open the corresponding solution file
+
+30
+00:01:27,630 --> 00:01:32,580
+now the CUDA toolkit installer
+
+31
+00:01:29,930 --> 00:01:35,100
+automatically installed the end site
+
+32
+00:01:32,580 --> 00:01:37,729
+plugin during installation which I'm
+
+33
+00:01:35,100 --> 00:01:37,729
+going to use here
+
+34
+00:01:38,530 --> 00:01:44,790
+let's build this project and run the
+
+35
+00:01:41,710 --> 00:01:44,790
+generated executable
+
+36
+00:01:44,830 --> 00:01:50,630
+the application runs successfully and
+
+37
+00:01:47,200 --> 00:01:53,869
+prints its status to the prompt
+
+38
+00:01:50,630 --> 00:01:56,360
+and that's it you're now ready to
+
+39
+00:01:53,869 --> 00:01:59,530
+accelerate your applications on GPUs
+
+40
+00:01:56,360 --> 00:01:59,530
+using CUDA
