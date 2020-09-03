@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "process.args": "0.0.6",
-    "puppeteer": "^1.12.2"
+    "puppeteer": "^1.13.0"
   },
   "devDependencies": {},
   "scripts": {
